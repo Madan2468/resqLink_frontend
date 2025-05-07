@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
 
   useEffect(() => {
     getUserCases();
-  }, [getUserCases]);
+  }, []);
 
   useEffect(() => {
     if (user) {

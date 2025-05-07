@@ -36,7 +36,7 @@ const CaseDetail: React.FC = () => {
     };
     
     fetchCaseDetail();
-  }, [getCaseById, id]);
+  }, [ id]);
   
   const handleStatusUpdate = async (status: 'pending' | 'in-progress' | 'resolved') => {
     if (!id) return;

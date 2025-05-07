@@ -95,7 +95,7 @@ const LocationPicker: React.FC<LocationPickerProps> = ({ onLocationSelected, ini
     } else {
       setLoading(false);
     }
-  }, [initialLocation, onLocationSelected]);
+  }, [initialLocation]);
 
   const handlePositionChange = (position: [number, number]) => {
     setCurrentPosition(position);

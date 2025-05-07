@@ -13,7 +13,7 @@ const ViewCases: React.FC = () => {
   
   useEffect(() => {
     getCases();
-  }, [getCases]);
+  }, []);
   
   const handleRefresh = () => {
     getCases();

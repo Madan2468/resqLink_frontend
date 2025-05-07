@@ -10,7 +10,7 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     getCases();
-  }, [getCases]);
+  }, []);
 
   useEffect(() => {
     if (cases.length > 0) {
